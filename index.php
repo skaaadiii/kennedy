@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?c54299e13013c97226cc406b3cd581ea";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
 <head>
     <title>吃掉小鹿乃</title>
     <meta itemprop="name" content="吃掉小鹿乃" />
@@ -30,6 +20,16 @@ var _hmt = _hmt || [];
     echo "<script>var tj='" . $str . "'</script>";
     ?>
     <script src="./static/index.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c54299e13013c97226cc406b3cd581ea";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 </head>
 
 <body onLoad="init()" oncontextmenu=self.event.returnValue=false>
