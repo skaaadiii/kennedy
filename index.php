@@ -20,16 +20,6 @@
     echo "<script>var tj='" . $str . "'</script>";
     ?>
     <script src="./static/index.js"></script>
-  <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?51708d126566e0e682fe2538a52c8f01";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
 </head>
 
 <body onLoad="init()" oncontextmenu=self.event.returnValue=false>
